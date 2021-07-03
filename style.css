@@ -10,6 +10,7 @@ h1{
 } 
 section{
     display: flex;
+    margin-bottom: 40px;
 }
 .half{
     width: 50%;
@@ -18,6 +19,8 @@ section{
 .half img{
     width: 80%;
     height: 80%;
+    border-radius: 20%;
+    border: solid 2px tomato ;
 }
 .hireme{
     text-decoration: none;
@@ -30,5 +33,31 @@ section{
 .top{
     background-image: url(picture/top-banner.png);
     background-repeat: no-repeat;
+    
+}
+
+.second-half{
+    width: 50%;
+    padding: 5%;
+    padding-right: 50px;
+}
+.second-half img{
+    width: 80%;
+    height: 80%;
+    border-radius: 20%;
+    border: dashed 2px green;
+}
+.contact{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: whitesmoke;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.dream-big{
+    background-image: url(picture/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
     
 }
