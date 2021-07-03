@@ -5,6 +5,13 @@ body{
 h1{
     font-size: 40px;
 }
+.o{
+    color: red;
+    font-size: 100px;
+    font-family: monospace;
+}
+
+
 .sheikh{
     color: orange;
 } 
